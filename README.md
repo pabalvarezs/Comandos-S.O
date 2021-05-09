@@ -20,6 +20,7 @@ to do
 
 - ## Modificar grub linux - windows dualboot:
 ---
+<https://miracomosehace.com/cambiar-orden-arranque-grub-ubuntu-linux/>
 1. Abrimos el archivo grub (sudo)
 ~~~
 sudo nano /etc/default/grub
