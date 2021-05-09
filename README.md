@@ -12,10 +12,12 @@ xset led on
 xset led off
 ~~~
 
-- ## Cambiar formato hora linux - windows dualboot:
+- ## Hora linux - windows dualboot :
 ---
+<https://www.redeszone.net/2017/08/05/solucionar-problemas-hora-dual-boot-windows-linux/>
+1. Cambiar UTC de linux a localtime
 ~~~
-to do
+sudo timedatectl set-local-rtc 1
 ~~~
 
 - ## Modificar grub linux - windows dualboot:
