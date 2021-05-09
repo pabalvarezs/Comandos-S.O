@@ -27,7 +27,7 @@ sudo nano /etc/default/grub
 ~~~
 Modificamos el archivo
 ~~~
-  GNU nano 4.8                  /etc/default/grub                               
+                     
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 # For full documentation of the options in this file, see:
