@@ -1,30 +1,30 @@
 
-# **Comandos-Linux**
-
-## Encender Luces teclado retroilumnidado:
-
+**Comandos-Linux**
+===
++ ## Encender Luces teclado retroilumnidado:
+---
 ~~~
 xset led on
 ~~~
-## Apagar Luces teclado retroilumnidado:
-
+- ## Apagar Luces teclado retroilumnidado:
+---
 ~~~
 xset led off
 ~~~
 
-## Cambiar formato hora linux - windows dualboot:
-
+- ## Cambiar formato hora linux - windows dualboot:
+---
 ~~~
 to do
 ~~~
 
-## Modificar grub linux - windows dualboot:
-
-Abrimos el archivo grub (sudo)
+- ## Modificar grub linux - windows dualboot:
+---
+1. Abrimos el archivo grub (sudo)
 ~~~
 sudo nano /etc/default/grub
 ~~~
-Modificamos el archivo
+2. Modificamos el archivo
 ~~~
                      
 # If you change this file, run 'update-grub' afterwards to update
@@ -48,7 +48,7 @@ GRUB_CMDLINE_LINUX=""
 
 ~~~
 
-Luego de modificar debemos actualizar el archivo grub
+3. Luego de modificar debemos actualizar el archivo grub
 ~~~
 sudo update-grub
 ~~~
