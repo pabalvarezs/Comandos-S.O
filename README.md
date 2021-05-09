@@ -23,9 +23,9 @@ to do
 
 Abrimos el archivo grub (sudo)
 ~~~
-nano /etc/default/grub
+sudo nano /etc/default/grub
 ~~~
-Modificamos el archivo, podemos sobreescribir o guardar como grub2
+Modificamos el archivo
 ~~~
   GNU nano 4.8                  /etc/default/grub                               
 # If you change this file, run 'update-grub' afterwards to update
@@ -51,5 +51,5 @@ GRUB_CMDLINE_LINUX=""
 
 Luego de modificar debemos actualizar el archivo grub
 ~~~
-sudo update-grub2
+sudo update-grub
 ~~~
