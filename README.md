@@ -4,12 +4,11 @@
 ## Encender Luces teclado retroilumnidado:
 
 ~~~
-Teclado ON
-
 xset led on
+~~~
+## Apagar Luces teclado retroilumnidado:
 
-Teclado OFF
-
+~~~
 xset led off
 ~~~
 
