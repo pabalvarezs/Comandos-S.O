@@ -1,6 +1,6 @@
-*Comandos Windows*
-=
-**Comandos CMD**
+# Comandos Windows #
+
+## Comandos CMD ##
 
 + Usuarios Windows
 ~~~
@@ -36,10 +36,36 @@ control userpasswords2
 %windir%\fonts
 ~~~
 
-+ DNS Y COMPROBAR SERVIDOR
++ DNS y Comprobar servidor
 ~~~
 nslookup -q=MX mtca.cl
 ~~~
 ~~~
 nslookup -type=any mtca.cl
 ~~~
++ Comprobador de Archivos Windows
+~~~
+sfc /scannow
+~~~
+---
+## Examinar busca de virus ##
+1.  Situarte en la carpeta antivirus
+~~~
+cd \Program Files\Windows Defender
+~~~
+2.  Ejecutar Nivel 1 - 2- 3
+~~~
+mpcmdrun.exe -Scan -1
+~~~
+~~~
+mpcmdrun.exe -Scan -2
+~~~
+~~~
+MpCmdRun -Scan -ScanType -BootSectorScan
+~~~
+---
+## Reinstalar Archivos Imagen Online Windows ##
+~~~
+dism.exe /Online /Cleanup-Image /RestoreHealth 
+~~~
+
