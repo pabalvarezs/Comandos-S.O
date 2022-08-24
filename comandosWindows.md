@@ -64,8 +64,10 @@ mpcmdrun.exe -Scan -2
 MpCmdRun -Scan -ScanType -BootSectorScan
 ~~~
 ---
-## Reinstalar Archivos Imagen Online Windows ##
+## Reparar Imagen Online Windows ##
 ~~~
+dism.exe /Online /Cleanup-Image /CheckHealth
+dism.exe /Online /Cleanup-Image /ScanHealth
 dism.exe /Online /Cleanup-Image /RestoreHealth 
 ~~~
 
