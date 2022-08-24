@@ -71,3 +71,7 @@ dism.exe /Online /Cleanup-Image /ScanHealth
 dism.exe /Online /Cleanup-Image /RestoreHealth 
 ~~~
 
+## Información del Sistema  ##
+~~~ 
+msinfo32
+~~~
