@@ -75,3 +75,17 @@ dism.exe /Online /Cleanup-Image /RestoreHealth
 ~~~ 
 msinfo32
 ~~~
+
+## Comando de Estadisticas TCP/IP
++ Todas las conexiones y puertos 
+~~~
+netstat -a
+~~~
++ Muestra las tablas de Rutas
+~~~
+netstat -r
+~~~
++ Muestra estadisticas
+~~~
+netstat -e
+~~~
