@@ -77,9 +77,17 @@ msinfo32
 ~~~
 
 ## Comando de Estadisticas TCP/IP
-+ Todas las conexiones y puertos 
++ Todas las conexiones y puertos incluidas listening
 ~~~
 netstat -a
+~~~
++ Muestra el nombre completo de dominio 
+~~~
+netstat -f
+~~~
++ Muestra la ip y puerto del remoto
+~~~
+netstat -n
 ~~~
 + Muestra las tablas de Rutas
 ~~~
@@ -89,3 +97,33 @@ netstat -r
 ~~~
 netstat -e
 ~~~
++ Muestra los programas que estan conectados
+~~~
+netstat -b
+~~~
++ BUsqueda especifica 
+~~~
+netstat -f | findstr PALABRA
+~~~
+## Comando de Diskpart
++ Formatear Pendrive
+~~~
+diskpart
+
+list disk
+
+select disk [Your disk]
+
+clean
+
+create partition primary
+
+format fs=ntfs
+
+exit
+
+~~~
+
+
+
+
